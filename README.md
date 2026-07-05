@@ -1,12 +1,4 @@
 # Nucleo-F103RB
-driver library from scratch in embedded C for stm32f103 microcontroller
-
-Implementation of  driver libraries to configure Nucleo-F103RB registers and 
-implement various API's like read from pin, write to pin, interrupt control,commuincation protocol ,etc. from scratch in embedded C using stm32 cube ide.
-The implementation is in progress , will be updating the project.
-Here is the drive link for video demonstration of the example code.
-https://drive.google.com/drive/u/1/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn
-
 ## Overview
 
 This project implements low-level drivers for core STM32F103 peripherals, exposing a small, consistent API (init/de-init, read/write, interrupt configuration, flag status, etc.) similar in spirit to a hand-rolled HAL. It's built and debugged using **STM32CubeIDE**.
