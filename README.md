@@ -18,8 +18,12 @@ Common register definitions and base addresses for the MCU live in `drivers/Inc/
 ## Demo
 
 ### MPU6050
-
+#### Demo of MPU6050 
 ![Nucleo-F103RB](media/MPU6050.gif)
+
+#### Ouptut of logic analyzer using sigrok software
+![Nucleo-F103RB](media/image.png)
+
 
 
 ### Example applications (`Src/`)
