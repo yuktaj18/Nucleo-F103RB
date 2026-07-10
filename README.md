@@ -1,7 +1,7 @@
 # Nucleo-F103RB
 ## Overview
 
-This project implements low-level drivers for core STM32F103 peripherals, exposing a small, consistent API (init/de-init, read/write, interrupt configuration, flag status, etc.) similar in spirit to a hand-rolled HAL. It's built and debugged using **STM32CubeIDE**.
+This project implements low-level drivers for core STM32F103 peripherals, API for init/de-init, read/write, interrupt configuration, flag status, etc. It's built and debugged using **STM32CubeIDE**.
 
 A video demonstration of the example applications running on hardware is available [here](https://drive.google.com/drive/u/1/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn).
 
@@ -15,7 +15,6 @@ A video demonstration of the example applications running on hardware is availab
 | I2C | `drivers/Inc/stm32f103xx_i2c_driver.h` | `drivers/Src/stm32f103xx_i2c_driver.c` |
 | USART | `drivers/Inc/stm32f103xx_usart_driver.h` | `drivers/Src/stm32f103xx_usart_driver.c` |
 
-Each driver exposes functions for peripheral clock control, initialization/de-initialization, data transfer, flag/status checks, and (where applicable) interrupt configuration and handling — for example `GPIO_Init`, `GPIO_ReadFromInputPin`, `SPI_SendData`, `I2C_MasterSendData`, `USART_SendData`, `USART_ReceiveDataIT`, `*_IRQInterruptConfig`, `*_IRQHandling`.
 
 Common register definitions and base addresses for the MCU live in `drivers/Inc/stm32f103xx.h`.
 
