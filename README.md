@@ -102,19 +102,6 @@ Nucleo-F103RB/
 │   ├── 007_UARTSend.c
 │   └── 008_I2C_ArduinoMasterSend.c
 │
-├── MPU6050/
-│   ├── Inc/
-│   └── Src/
-│
-├── Startup/
-│   └── startup_stm32f103rbtx.s
-│
-├── media/
-│   ├── MPU6050.gif
-│   └── image.png
-│
-├── STM32F103RBTX_FLASH.ld
-└── README.md
 ```
 
 ---
