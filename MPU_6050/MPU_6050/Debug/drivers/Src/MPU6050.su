@@ -1,0 +1,5 @@
+../drivers/Src/MPU6050.c:21:13:delay	16	static
+../drivers/Src/MPU6050.c:32:6:DeviceIdentity	16	static
+../drivers/Src/MPU6050.c:38:6:MPU6050_Init	16	static
+../drivers/Src/MPU6050.c:135:6:MPU6050_GetRawData	40	static
+../drivers/Src/MPU6050.c:164:6:MPU6050_GetScaledData	32	static
