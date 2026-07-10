@@ -15,8 +15,12 @@ This project implements low-level drivers for core STM32F103 peripherals, API fo
 
 
 Common register definitions and base addresses for the MCU live in `drivers/Inc/stm32f103xx.h`.
-### Demo
-## Example applications (`Src/`)
+## Demo
+
+### MPU6050
+
+
+### Example applications (`Src/`)
 
 | File | Description |
 |---|---|
@@ -30,8 +34,6 @@ Common register definitions and base addresses for the MCU live in `drivers/Inc/
 | `008_I2C_ArduinoMasterSend.c` | I2C master send to an Arduino slave |
 
 A video demonstration of the example applications running on hardware is available [here](https://drive.google.com/drive/u/1/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn).
-
-## MPU6050
 
 ## Project structure
 
