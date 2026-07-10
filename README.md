@@ -19,6 +19,8 @@ Common register definitions and base addresses for the MCU live in `drivers/Inc/
 
 ### MPU6050
 
+![Nucleo-F103RB](media/IMG20260710112043.jpg)
+
 
 ### Example applications (`Src/`)
 
