@@ -61,16 +61,6 @@ drivers/Inc/stm32f103xx.h
 | `007_UARTSend.c` | USART transmission to a serial terminal (e.g., PuTTY). | - |
 | `008_I2C_ArduinoMasterSend.c` | I2C Master (STM32) communicating with an Arduino I2C Slave. | - |
 
----
-
-## Additional Demonstration Videos
-
-Complete hardware demonstrations are available here:
-
-📹 https://drive.google.com/drive/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn
-
----
-
 ## Project Structure
 
 ```text
@@ -104,28 +94,9 @@ Nucleo-F103RB/
 │
 ```
 
+## Notes 
+- A serial terminal (e.g. PuTTY) for the USART example
+- An Arduino board for the SPI/I2C slave examples
+- This is a learning/reference project and is under active development — APIs may change as new peripherals and features are added.
 ---
 
-## Development Environment
-
-- STM32 Nucleo-F103RB
-- STM32CubeIDE
-- STM32F103RB Microcontroller
-- Sigrok Logic Analyzer
-- PuTTY (USART Testing)
-- Arduino Uno (SPI/I2C Communication)
-- MPU6050 IMU Sensor
-
----
-
-## Notes
-
-- This project is intended for educational purposes and embedded systems learning.
-- Drivers are implemented using direct register access without STM32 HAL.
-- Additional peripherals and example applications will be added over time.
-
----
-
-## License
-
-This project is released under the MIT License. Feel free to use, modify, and extend it for educational and personal projects.
