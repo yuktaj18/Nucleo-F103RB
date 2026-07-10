@@ -4,24 +4,11 @@
 
 This repository contains low-level peripheral drivers developed for the **STM32F103RB** microcontroller on the **STM32 Nucleo-F103RB** development board.
 
-The project implements register-level drivers for commonly used peripherals including **GPIO, RCC, SPI, I2C, and USART**, without relying on STM32 HAL libraries. It is intended as a learning resource for understanding the STM32F1 architecture and embedded driver development.
+The project implements register-level drivers for commonly used peripherals including **GPIO, RCC, SPI, I2C, and USART**, without relying on STM32 HAL libraries. 
 
-The repository also includes an **MPU6050 interface library** and several example applications demonstrating peripheral communication with external hardware.
+It also includes an **MPU_6050 folder** which has APIs for verifying,reading sensor's registers for data.
 
 ---
-
-## Features
-
-- Register-level peripheral drivers
-- GPIO driver
-- RCC (Clock) driver
-- SPI driver
-- I2C driver
-- USART driver
-- External interrupt (EXTI) support
-- MPU6050 sensor interface
-- Example applications for each peripheral
-- Developed and tested using **STM32CubeIDE**
 
 ---
 
