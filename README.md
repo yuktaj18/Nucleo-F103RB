@@ -1,9 +1,7 @@
 # Nucleo-F103RB
 ## Overview
 
-This project implements low-level drivers for core STM32F103 peripherals, API for init/de-init, read/write, interrupt configuration, flag status, etc. It's built and debugged using **STM32CubeIDE**.
-
-A video demonstration of the example applications running on hardware is available [here](https://drive.google.com/drive/u/1/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn).
+This project implements low-level drivers for core STM32F103 peripherals, API for init/de-init, read/write, interrupt configuration, flag status, etc. It's built and debugged using **STM32CubeIDE**. MPU6050 folder contains API for nucleof103rb and mpu6050 sensor interfacing.
 
 ## Drivers implemented
 
@@ -17,7 +15,7 @@ A video demonstration of the example applications running on hardware is availab
 
 
 Common register definitions and base addresses for the MCU live in `drivers/Inc/stm32f103xx.h`.
-
+### Demo
 ## Example applications (`Src/`)
 
 | File | Description |
@@ -30,6 +28,10 @@ Common register definitions and base addresses for the MCU live in `drivers/Inc/
 | `006_ArduinoSPISendOnly.c` | SPI master send to an Arduino slave |
 | `007_UARTSend.c` | USART transmission, viewable via a serial terminal (e.g. PuTTY) |
 | `008_I2C_ArduinoMasterSend.c` | I2C master send to an Arduino slave |
+
+A video demonstration of the example applications running on hardware is available [here](https://drive.google.com/drive/u/1/folders/1PlHLK_qdBC3YYLz9OHBDXSHNoAvFO0gn).
+
+## MPU6050
 
 ## Project structure
 
@@ -44,33 +46,8 @@ stm32f1xx_drivers/
 └── Debug/              # STM32CubeIDE build output (objects, .elf, .map, makefiles)
 ```
 
-## Hardware
-
-- **Board:** ST Nucleo-F103RB
-- **MCU:** STM32F103RB (Arm Cortex-M3)
-
-## Getting started
-
-### Prerequisites
-
-- [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
-- ST-Link drivers/tools (bundled with STM32CubeIDE) for flashing/debugging
+## Notes
 - A serial terminal (e.g. PuTTY) for the USART example
 - An Arduino board for the SPI/I2C slave examples
-
-### Build & flash
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yuktaj18/Nucleo-F103RB.git
-   ```
-2. Open **STM32CubeIDE** and import `stm32f1xx_drivers` as an existing project (`File → Import → Existing Projects into Workspace`).
-3. In `Src/`, keep only the example `.c` file you want to run active in the build 
-4. Build the project.
-5. Connect the Nucleo-F103RB via USB and flash/debug using the built-in ST-Link.
-
-## Notes
-
-- These drivers directly manipulate peripheral registers as defined in `stm32f103xx.h`; no ST HAL/LL libraries are used.
-- The I2C example uses `PB8` (SCL) and `PB9` (SDA).
 - This is a learning/reference project and is under active development — APIs may change as new peripherals and features are added.
+  
