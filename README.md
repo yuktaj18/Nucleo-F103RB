@@ -30,7 +30,7 @@ Common register definitions and base addresses for the MCU live in `drivers/Inc/
 
 | File | Description |
 |---|---|
-| `001_LedBlink.c` | Toggle an on-board LED using the GPIO driver |
+| `001_LedBlink.c` | Toggle an on-board LED using the GPIO driver | [Video Link](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1).
 | `002_ButtonLedInterface.c` | Read a button (on-board) and drive an LED accordingly |
 | `003_ExternalButtonLedInterface.c` | Same as above using an external button |
 | `004_ButtonLedInterruptInterface.c` | Button-triggered LED toggling using GPIO interrupts (EXTI) |
