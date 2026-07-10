@@ -53,7 +53,7 @@ drivers/Inc/stm32f103xx.h
 | File | Description | Demo |
 |------|-------------|------|
 | `001_LedBlink.c` | Toggle the on-board LED using the GPIO driver. | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
-| `002_ButtonLedInterface.c` | Read the on-board push button and control the on-board LED. | - |
+| `002_ButtonLedInterface.c` | Read the on-board push button and control the on-board LED. | [🎥 Video](https://github.com/user-attachments/assets/8626246c-ffda-455b-a673-311d6a2b9eaa) |
 | `003_ExternalButtonLedInterface.c` | Interface an external push button to control an LED. | - |
 | `004_ButtonLedInterruptInterface.c` | Toggle the LED using GPIO external interrupts (EXTI). | - |
 | `005_SPI_SendDataTesting.c` | Basic SPI communication test. | - |
