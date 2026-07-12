@@ -54,7 +54,7 @@ drivers/Inc/stm32f103xx.h
 |------|-------------|------|
 | `001_LedBlink.c` | Toggle the on-board LED using the GPIO driver. | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
 | `002_ButtonLedInterface.c` | Read the on-board push button and control the on-board LED. | [🎥 Video](https://github.com/user-attachments/assets/8626246c-ffda-455b-a673-311d6a2b9eaa) |
-| `003_ExternalButtonLedInterface.c` | Interface an external push button to control an LED. | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
+| `003_ExternalButtonLedInterface.c` | Interface an external push button to control an LED. | [🎥 Video](https://github.com/user-attachments/assets/b5b9acc4-f575-48c5-a5d5-b6e87fcda35b) |
 | `004_ButtonLedInterruptInterface.c` | Toggle the LED using GPIO external interrupts (EXTI). | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
 | `005_SPI_SendDataTesting.c` | Basic SPI communication test. | - |
 | `006_ArduinoSPISendOnly.c` | SPI Master (STM32) transmitting data to an Arduino SPI Slave. | - |
