@@ -54,12 +54,11 @@ drivers/Inc/stm32f103xx.h
 |------|-------------|------|
 | `001_LedBlink.c` | Toggle the on-board LED using the GPIO driver. | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
 | `002_ButtonLedInterface.c` | Read the on-board push button and control the on-board LED. | [🎥 Video](https://github.com/user-attachments/assets/8626246c-ffda-455b-a673-311d6a2b9eaa) |
-| `003_ExternalButtonLedInterface.c` | Interface an external push button to control an LED. | [🎥 Video](https://github.com/user-attachments/assets/b5b9acc4-f575-48c5-a5d5-b6e87fcda35b) |
+| `003_ExternalButtonLedInterface.c` | Interface an external push button to control an LED. | [🎥 Video](https://github.com/user-attachments/assets/6e5d5319-dec5-4019-98e5-0d5653c5208a) |
 | `004_ButtonLedInterruptInterface.c` | Toggle the LED using GPIO external interrupts (EXTI). | [🎥 Video](https://github.com/user-attachments/assets/54fc14a5-6183-47e0-9a7a-f529a35130f1) |
-| `005_SPI_SendDataTesting.c` | Basic SPI communication test. | - |
-| `006_ArduinoSPISendOnly.c` | SPI Master (STM32) transmitting data to an Arduino SPI Slave. | - |
-| `007_UARTSend.c` | USART transmission to a serial terminal (e.g., PuTTY). | - |
-| `008_I2C_ArduinoMasterSend.c` | I2C Master (STM32) communicating with an Arduino I2C Slave. | - |
+| `006_ArduinoSPISendOnly.c` | SPI Master (STM32) transmitting data to an Arduino SPI Slave. | [🎥 Video](https://github.com/user-attachments/assets/5433bad0-dd64-44c7-91b4-5cdb09c596b5) |
+| `007_UARTSend.c` | USART transmission to a serial terminal (e.g., PuTTY). | [🎥 Video](https://github.com/user-attachments/assets/51ace40a-c3a4-4492-955b-c5d8216a171e)|
+| `008_I2C_ArduinoMasterSend.c` | I2C Master (STM32) communicating with an Arduino I2C Slave. | [🎥 Video](https://github.com/user-attachments/assets/97c80f97-0db5-424d-b02c-8638a423d713) |
 
 ## Project Structure
 
